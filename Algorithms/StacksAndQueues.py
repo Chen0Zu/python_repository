@@ -60,7 +60,7 @@ class linkedQueueOfStrings:
 
     def print(self):
         current = self.head
-        while (current):
+        while current:
             print(current.item)
             current = current.next
 
