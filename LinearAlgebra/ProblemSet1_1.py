@@ -37,3 +37,59 @@ A = np.array([[2, 0], [1, 1]])
 B = np.array([[0, 0, 0, 1, 1, 1, 2, 2, 2], [0, 1, 2, 0, 1, 2, 0, 1, 2]])
 o = A @ B
 
+# 8
+
+# 9
+
+# 10
+i = np.array([1,0,0]).reshape(-1,1)
+j = np.array([0,1,0]).reshape(-1,1)
+iplusj = i + j
+print(iplusj)
+k = np.array([0,0,1]).reshape(-1,1)
+sumijk = i + j + k
+print(sumijk)
+
+# 11
+centerpoint = np.array([1,1,1]).reshape(-1,1)/2
+print(centerpoint)
+
+# 12
+
+# 13
+print(0)
+v = np.array([np.cos(np.pi/6), np.sin(np.pi/6)]).reshape(-1,1)
+print(v)
+
+# 14
+
+# 15
+
+# 16
+
+# 17
+
+# 18
+
+# 19
+
+# 20
+
+# 21
+
+# 22
+
+# 23
+print('a plane')
+
+# 24
+
+# 25
+
+# 26
+A = np.array([[1,3],[2,1]])
+b = np.array([14,8]).reshape(-1,1)
+x = np.linalg.inv(A) @ b
+print(x)
+
+# 27
